@@ -17,7 +17,7 @@ margin: 0;
 /* Header Style */
 .header{
   background-image: url(../images/banner/banner.png);
-  weight: 100%;
+  wight: 100%;
   height: 470px;
   background-repeat: no-repeat;
   text-align: right;
@@ -40,10 +40,10 @@ margin: 0;
     display: flex;
     justify-content: space-between;
     gap: 90px;
-    /* align-items: center; */
+
   }
 .failure-section img{
-  margin-top: 130px;
+  margin-top: 100px;
   margin-left: 170px;
   height: 500px;
   }
@@ -93,6 +93,48 @@ margin: 0;
   font-weight: 500;
   font-size: 15px;
   color: #737272;
+}
+
+/* Mindset Styles */
+.mindset{
+  margin: 100px 230px 0;
+  border: 0;
+  border-radius: 5px;
+  background-image: url(../images/watch.png);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 200px;
+}
+.mindset-title{
+  font-weight: 700;
+  font-size: 40px;
+  margin: 50px 400px 24px 32px;
+  color: #FFFF;
+  font-weight: 700;
+  font-size: 40px;
+}
+.mindset-button{
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #FFFF;
+  color: #FD6E0A;
+  font-weight: 600px;
+  font-size: 20px;
+  border: 0;
+  padding: 15px 20px;
+  margin-left: 32px;
+}
+.mindset-overlay{
+  background: url(../images/gradient2.png);
+  height: 200px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 /* Footer Styles */
