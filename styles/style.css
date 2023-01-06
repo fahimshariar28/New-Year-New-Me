@@ -35,5 +35,64 @@ margin: 0;
   margin-bottom: 32px;
 }
 /* Main Section Styles */
+/* Failure Section Styles */
+  .failure-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    /* align-items: center; */
+  }
+.failure-section img{
+  margin-top: 130px;
+  margin-left: 170px;
+  height: 500px;
+  }
+  .failure-text{
+    margin-right: 320px;
+  }
+.failure-title{
+  margin: 250px 0 24px 0;
+  font-weight: 700;
+  font-size: 40px;
+}
+.failure-description{
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #444343;
+}
+.failure-point{
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+
+/* Plan Section Style */
+.plan-section-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.plan-section{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 86px;
+  margin: 0 330px;
+}
+.plan-image{
+  height: 50px;
+}
+.plan-title{
+  font-weight: 700;
+  font-size: 20px;
+}
+.plan-description{
+  font-weight: 500;
+  font-size: 15px;
+  color: #737272;
+}
 
 /* Footer Styles */
