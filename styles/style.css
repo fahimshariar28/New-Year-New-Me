@@ -2,11 +2,6 @@
 *{
 margin: 0;
 }
-font-family: 'Work Sans', sans-serif;
-
-.button-primary{
-  margin-right: 150px;
-}
 .button-primary{
   width: 160px;
   height: 64px;
@@ -23,9 +18,8 @@ font-family: 'Work Sans', sans-serif;
 .header{
   background-image: url(../images/banner/banner.png);
   weight: 100%;
-  height: 660px;
+  height: 470px;
   background-repeat: no-repeat;
-  background-position: center;
   text-align: right;
   padding: 150px 150px 0 700px;
 }
