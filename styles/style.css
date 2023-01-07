@@ -35,6 +35,40 @@ margin: 0;
   margin-bottom: 32px;
 }
 /* Main Section Styles */
+
+/* About Section Title */
+.about{
+  margin: 100px 230px 0;
+  background: #f3ab8c;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.about-section-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.about-section-description{
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about .info-title{
+  font-size: 20px;
+  color: #757575;
+}
+.about.info-description{
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
 /* Failure Section Styles */
   .failure-section{
     display: flex;
@@ -106,6 +140,7 @@ margin: 0;
   background-repeat: no-repeat;
   position: relative;
   height: 200px;
+  margin-bottom: 100px;
 }
 .mindset-title{
   font-weight: 700;
